@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+// 引入重置样式表
+@import "./normalize.css";
+
+@import "./reset.css";
+
+// 引入变量
+
+@base : 100;
+
+// 左侧导航开始
+.dorpdown{
+    background: #fff;
+    margin-top: 2rem / @base;
+    ul{
+        width: 163rem / @base;
+        height: 1226rem / @base;
+        text-align: center;
+        border-right: 1rem / @base solid #d9d9d9;
+        margin-top: 38rem / @base;
+        li:nth-child(1){
+            color: #f26b11;
+            border-left: 8rem / @base solid #f26b11;
+            // box-sizing: border-box;
+            a{
+                color: #f26b11;
+            }
+            
+        } 
+        li{
+            height: 52rem / @base;
+            line-height: 52rem / @base;
+            font-size:24rem / @base;
+            margin-bottom: 64rem / @base;
+            a{
+                display: block;
+                color: #989898;
+            }
+        
+        }
+    }
+}
+// 左侧导航结束
+// 右侧内容开始
+.content-box{
+    background: #fff;
+    height: 1264rem / @base;
+        .list{
+            display: flex;
+            justify-content: space-between;
+            height: 52rem / @base;
+            line-height: 52rem / @base;
+            padding-top: 38rem / @base;
+            p{
+                color: #454545;
+                font-size: 26rem / @base;
+            }
+            p:nth-child(1){
+                margin-left: 54rem / @base;
+                
+            }
+            p:nth-child(2){
+                margin-right: 44rem / @base;
+            }
+        }
+        .img-box{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap-reverse;
+            img{
+                margin-top: 42rem / @base;
+                margin-bottom: 20rem / @base;
+                width: 147rem / @base;
+                height: 160rem / @base;
+                vertical-align: middle;
+            }
+            p{
+               text-align: center;
+               font-size: 24rem / @base;
+               color: #878787;
+            }
+        }
+}

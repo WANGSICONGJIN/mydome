@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+// 引入重置样式
+@import "/css/normalize.css";
+
+@import "./reset.css";
+
+body{
+    font-size: 12px;
+    line-height: 1;
+    font-family: "微软雅黑";
+    background: #f1f1f1;
+}
+/*引入变量*/ 
+@baes : 100;
+
+/*外部盒子*/ 
+.wrap{
+    width: 750rem / @baes;
+    margin: 0 auto;
+}
+// 头部样式
+
+header{
+    background: #f26b11;
+    height: 86rem / @baes; 
+    display: flex;
+    padding: 40rem / @baes 28rem / @baes 0;
+    justify-content: space-between;
+    
+    i{
+        display: block;
+        width: 21rem / @baes;
+        height: 36rem / @baes;
+        background: url("../images/public/arrow.jpg") no-repeat;
+        background-size: 100% auto;
+        
+    }   
+    p{
+        font-size: 34rem / @baes;
+        color: #ffffff;
+    }
+    .set{
+        width: 55rem / @baes;
+        height: 12rem / @baes;  
+    }
+    .set span{
+        display: inline-block;
+        width: 12rem / @baes;
+        height: 11rem / @baes;
+        border-radius: 50%;
+        background: #fff;
+
+    }
+}
+// 小U底部
+.footer{
+        margin-top: 26rem / @baes;
+        display: flex;
+        justify-content: space-around;
+        border-top: 1rem / @baes solid #eaeaea;
+        background: #fff;
+        div{
+            margin-top: 22rem / @baes;
+            height: 112rem / @baes;
+            text-align: center;
+            i{
+                display: block;
+                width: 52rem / @baes;
+                height: 52rem / @baes;  
+                font-size: 52rem / @baes;
+            }
+            .item1{
+                background: url("../images/public/icon_8.jpg");
+                background-size: 100% auto;
+            }
+            .item2{
+                background: url("../images/public/icon_7.jpg");
+                background-size: 100% auto;
+            }
+            .item3{
+                background: url("../images/public/icon_5.jpg");
+                background-size: 100% auto;
+            }
+            .item1:hover{
+                background: url("../images/public/icon_6.jpg");
+                background-size: 100% auto;
+            }
+            .item2:hover{
+                background: url("../images/public/icon_9.jpg");
+                background-size: 100% auto;
+            }
+            .item3:hover{
+                background: url("../images/public/icon_10.jpg");
+                background-size: 100% auto;
+            }
+            p{
+                font-size: 20rem / @baes;
+                margin-top: 8rem / @baes;
+               a{
+                   color: #858585;
+               }
+            }
+        }
+    }

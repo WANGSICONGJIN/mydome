@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* @import "../css/normalize.css";
+@import "../css/reset.css"; */
+.wrap .receiver {
+  background: #fff;
+  height: 1.5rem;
+  font-size: 0.22rem;
+  color: #6e6e6e;
+  margin-bottom: 0.1rem;
+}
+.wrap .receiver span {
+  margin: 0.26rem 0;
+  padding-left: 0.28rem;
+}
+.wrap .receiver p {
+  float: left;
+}
+.wrap .receiver img {
+  width: 0.15rem;
+  height: 0.34rem;
+  float: right;
+  margin-right: 0.3rem;
+}
+.wrap .receiver .item span:nth-child(1) {
+  float: left;
+}
+.wrap .receiver .item span:nth-child(2) {
+  float: right;
+  padding-right: 0.96rem;
+}
+.wrap .receiver .item p:nth-of-type(1) {
+  padding-left: 0.28rem;
+}
+.wrap .Purchase {
+  height: 3.6rem;
+  background: #fff;
+}
+.wrap .Purchase img {
+  width: 1.01rem;
+  height: 1.01rem;
+  margin-top: 0.22rem;
+  padding-left: 0.34rem;
+}
+.wrap .Purchase .clearfix p {
+  padding-left: 0.28rem;
+  font-size: 0.22rem;
+}
+.wrap .Purchase p:nth-child(1) {
+  margin-top: 0.4rem;
+  margin-bottom: 0.24rem;
+  color: #676767;
+}
+.wrap .Purchase p:nth-child(2) {
+  color: #b3b3b3;
+}
+.wrap .Purchase .fr p {
+  font-size: 0.28rem;
+  color: #e83940;
+  padding-right: 0.29rem;
+}
+.wrap .Purchase .fr p span {
+  font-size: 0.18rem;
+}
+.wrap .Purchase .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.4rem;
+}
+.wrap .Purchase .list p {
+  color: #656565;
+  padding-left: 0.28rem;
+  font-size: 0.22rem;
+}
+.wrap .Purchase .list ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 0.63rem;
+  font-size: 0.22rem;
+}
+.wrap .Purchase .list ul li:nth-child(1) {
+  width: 0.73rem;
+  height: 0.63rem;
+  border: 0.01rem solid #525252;
+  border-radius: 0.04rem;
+  margin-right: 0.09rem;
+}
+.wrap .Purchase .list ul li:nth-child(2) {
+  width: 1.16rem;
+  height: 0.63rem;
+  border: 0.01rem solid #525252;
+  border-radius: 0.04rem;
+  margin-right: 0.12rem;
+}
+.wrap .Purchase .list ul li:nth-child(3) {
+  width: 0.73rem;
+  height: 0.63rem;
+  border: 0.01rem solid #525252;
+  border-radius: 0.04rem;
+  margin-right: 0.26rem;
+}
+.wrap .Purchase .list2 {
+  width: 7.02rem;
+  height: 0.96rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.01rem solid #f0f0f0;
+}
+.wrap .Purchase .list2 p {
+  font-size: 0.22rem;
+  color: #616161;
+}
+.wrap .preferentia {
+  height: 7.66rem;
+  background: #fff;
+  margin-top: 0.1rem;
+}
+.wrap .preferentia .list3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.01rem;
+  border-bottom: 0.02rem solid #f1f1f1;
+}
+.wrap .preferentia .list3 p {
+  font-size: 0.22rem;
+  color: #656565;
+  margin: 0.4rem 0.2rem 0 0.25rem;
+}
+.wrap .preferentia .list4 {
+  height: 1.02rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .preferentia .list4 p {
+  padding-left: 0.26rem;
+  font-size: 0.22rem;
+  color: #6a6a6a;
+}
+.wrap .preferentia .list4 .tet {
+  font-size: 0.22rem;
+}
+.wrap .preferentia .list4 .tet input {
+  width: 1.51rem;
+  height: 0.72rem;
+  border: 0.01rem solid #dddddd;
+  margin-right: 0.09rem;
+  text-align: center;
+}
+.wrap .preferentia .list4 .tet button {
+  width: 0.74rem;
+  height: 0.74rem;
+  background: #f26b11;
+  color: #e6ffff;
+}
+.wrap .preferentia .list4 .p2 {
+  display: inline-block;
+  font-size: 0.2rem;
+  color: #a4a4a4;
+  margin-right: 0.26rem;
+}
+.wrap .preferentia .list5 {
+  margin-top: 0.1rem;
+  height: 2.6rem;
+  background: #fff;
+}
+.wrap .preferentia .list5 .item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.2rem;
+  font-size: 0.22rem;
+  color: #676767;
+  padding: 0 0.38rem 0 0.26rem;
+}
+.wrap .preferentia .list5 .item .col {
+  color: #df3a48;
+  font-size: 0.18rem;
+}
+.wrap .preferentia .list5 .set {
+  padding-top: 0.35rem;
+}
+.wrap .preferentia .list6 {
+  margin-bottom: 1.5rem;
+  height: 2.58rem;
+  background: #fff;
+  text-align: center;
+}
+.wrap .preferentia .list6 .item {
+  width: 7.02rem;
+  margin: 0 auto;
+  border-top: 0.01rem solid #efefef;
+}
+.wrap .preferentia .list6 .item p {
+  float: right;
+  padding-top: 0.52rem;
+  font-size: 0.34rem;
+  color: #6e6e6e;
+}
+.wrap .preferentia .list6 .item p span {
+  font-size: 0.28rem;
+  color: #e53947;
+}
+.wrap .preferentia .list6 button {
+  width: 3.55rem;
+  height: 1.12rem;
+  background: #f26b11;
+  color: #fffefd;
+  margin-top: 0.45rem;
+  font-size: 0.28rem;
+}
+.wrap .footer {
+  margin: 0;
+}

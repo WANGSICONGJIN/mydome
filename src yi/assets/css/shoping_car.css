@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* @import "normalize.css";
+@import "reset.css"; */
+.wrap {
+  background: #fff;
+}
+.wrap .shopcar {
+  background: #fff;
+}
+.wrap  header{
+  padding-top: 0.4rem;
+} 
+.wrap .shopcar .list-box {
+  display: flex;
+  height: 1.72rem;
+  align-items: center;
+  margin-top: 0.26rem;
+  box-shadow: 0rem 0rem 0.04rem 0rem rgba(0, 0, 0, 0.3);
+}
+.wrap .shopcar .list-box .icon {
+  margin-top: 0.26rem;
+  margin: 0 0.24rem;
+}
+.wrap .shopcar .list-box .icon p i {
+  position: absolute;
+  left: 0.1rem;
+  top: 0.1rem;
+  width: 0.17rem;
+  height: 0.13rem;
+}
+.wrap .shopcar .list-box img {
+  width: 1.02rem;
+  height: 0.82rem;
+  margin-right: 0.36rem;
+}
+.wrap .shopcar .list-box .tit {
+  padding-right: 1.42rem;
+}
+.wrap .shopcar .list-box .tit p:nth-child(1) {
+  font-size: 0.26rem;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 0.28rem;
+}
+.wrap .shopcar .list-box .tit p:nth-child(2) {
+  font-size: 0.24rem;
+  color: #656565;
+  margin-bottom: 0.25rem;
+}
+.wrap .shopcar .list-box .tit p:nth-child(3) {
+  font-size: 0.24rem;
+  color: #e3393c;
+}
+.wrap .shopcar .list-box ul {
+  width: 2.13rem;
+  height: 0.58rem;
+  border: 0.01rem solid #505050;
+  border-radius: 0.04rem;
+  text-align: center;
+  line-height: 0.58rem;
+  margin-top: 0.66rem;
+}
+.wrap .shopcar .list-box ul li {
+  float: left;
+}
+.wrap .shopcar .list-box ul li a {
+  display: block;
+  color: #454545;
+  font-size: 0.2rem;
+}
+.wrap .shopcar .list-box ul li:nth-child(1) {
+  width: 0.62rem;
+  height: 0.58rem;
+  border-right: 0.01rem solid #505050;
+}
+.wrap .shopcar .list-box ul li:nth-child(2) {
+  width: 0.79rem;
+  height: 0.58rem;
+  border-right: 0.01rem solid #505050;
+}
+.wrap .shopcar .list-box ul li:nth-child(3) {
+  width: 0.67rem;
+  height: 0.58rem;
+}
+.wrap .settle {
+  width: 7.5rem;
+  height: 1.13rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.01rem solid #e5e5e5;
+  margin-top: 2.68rem;
+  margin-bottom: 1.33rem;
+}
+.wrap .settle .icon {
+  height: 0.49rem;
+  line-height: 0.49rem;
+  padding-left: 0.24rem;
+  padding-right: 0.14rem;
+}
+.wrap .settle .icon input i {
+  position: absolute;
+  left: 0.1rem;
+  top: 0.1rem;
+  width: 0.17rem;
+  height: 0.13rem;
+}
+.wrap .settle .icon span {
+  vertical-align: middle;
+  font-size: 0.22rem;
+  color: #666;
+  padding-left: 0.14rem;
+}
+.wrap .settle .tit p:nth-child(1) {
+  font-size: 0.28rem;
+  color: #333;
+  padding-left: 0.34rem;
+  margin-bottom: 0.16rem;
+}
+.wrap .settle b {
+  color: #e3393c;
+  font-size: 0.22rem;
+}
+.wrap .settle .tit p:nth-child(2) {
+  font-size: 0.18rem;
+  color: #bcbcbc;
+}
+.wrap .settle .tit2 {
+  width: 2.46rem;
+  background: #f26b11;
+  text-align: center;
+  line-height: 1.14rem;
+}
+.wrap .settle .tit2 a {
+  color: #fff;
+  display: block;
+  font-size: 0.28rem;
+}
+.wrap .footer {
+  margin: 0;
+}

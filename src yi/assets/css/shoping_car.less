@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+// 引入重置样式表
+
+@import "./normalize.css";
+
+@import "./reset.css";
+
+// 引入变量
+
+@base : 100;
+
+// 外部盒子
+.wrap{
+    background: #fff;
+    // 购物车开始
+    .shopcar{
+        background: #fff;
+        .list-box{
+            display: flex;
+            height: 172rem / @base;
+            align-items: center;
+            margin-top: 26rem / @base;
+            box-shadow: 0rem / @base 0rem / @base 4rem / @base 0rem / @base rgba(0, 0, 0, .3);
+           .icon{
+               margin-top: 26rem / @base;
+                margin: 0 24rem / @base;
+            //    p:active{
+            //        border: 1rem / @base solid #b1271a;
+            //    }
+               p i{
+                position: absolute;
+                left: 10rem / @base;
+                top: 10rem / @base;
+                width: 17rem / @base;
+                height: 13rem / @base;
+                // background: url("../images/shoping_car_images/select.jpg") no-repeat;
+               }
+            // input{
+            //     position: relative;
+            //     width: 36rem / @base;
+            //     height: 34rem / @base;
+            //     border-radius: 50%;
+            //     border: 1rem / @base solid #cccccc; 
+            //     background: #fff;   
+            // }           
+           } 
+           img{
+            width: 102rem / @base;
+            height: 82rem / @base;
+            margin-right: 36rem / @base;
+            } 
+            .tit{
+               padding-right: 142rem / @base;
+            }
+            .tit p:nth-child(1){
+                font-size: 26rem / @base;
+                color: #333333;
+                margin-top: 0;
+                margin-bottom: 28rem / @base;
+            }
+            .tit p:nth-child(2){
+                font-size: 24rem / @base;
+                color: #656565;
+                margin-bottom: 25rem / @base;
+            }
+            .tit p:nth-child(3){
+                font-size: 24rem / @base;
+                color: #e3393c;
+            }
+            ul{
+                width: 213rem / @base;
+                height: 58rem / @base;
+                border: 1rem / @base solid #505050;
+                border-radius: 4rem / @base;
+                text-align: center;
+                line-height: 58rem / @base;
+                margin-top: 66rem / @base;
+                li{
+                    float: left;  
+                    a{
+                        display: block;
+                        color: #454545;
+                        font-size: 20rem / @base;
+                    }
+                }    
+            }
+            ul li:nth-child(1){
+                width: 62rem / @base;
+                height: 58rem / @base;
+                border-right: 1rem / @base solid #505050;
+            }
+            ul li:nth-child(2){
+                width: 79rem / @base;
+                height: 58rem / @base;
+                border-right: 1rem / @base solid #505050;
+            }
+            ul li:nth-child(3){
+                width: 67rem / @base;
+                height: 58rem / @base;
+            } 
+        }
+        // .list-box2{
+        //     display: flex;
+        //     height: 172rem / @base;
+        //     align-items: center;
+        //     margin-top: 26rem / @base;
+        //     box-shadow: 0rem / @base 0rem / @base 4rem / @base 0rem / @base rgba(0, 0, 0, .3);
+        //     img{
+        //         width: 102rem / @base;
+        //         height: 82rem / @base;
+        //         margin-right: 36rem / @base;
+        //     } 
+        //     .tit{
+        //         padding-right: 142rem / @base;
+        //         }
+        //     .tit p:nth-child(1){
+        //             font-size: 26rem / @base;
+        //             color: #333333;
+        //             margin-top: 0;
+        //             margin-bottom: 28rem / @base;
+        //         }
+        //     .tit p:nth-child(2){
+        //             font-size: 24rem / @base;
+        //             color: #656565;
+        //             margin-bottom: 25rem / @base;
+        //         }
+        //     .tit p:nth-child(3){
+        //             font-size: 24rem / @base;
+        //             color: #e3393c;
+        //         }
+        //     ul{
+        //             width: 210rem / @base;
+        //             height: 58rem / @base;
+        //             border: 1rem / @base solid #505050;
+        //             border-radius: 4rem / @base;
+        //             text-align: center;
+        //             line-height: 58rem / @base;
+        //             margin-top: 66rem / @base;
+        //             li{
+        //                 float: left;  
+        //                 a{
+        //                     display: block;
+        //                     color: #454545;
+        //                     font-size: 20rem / @base;
+        //                 }
+        //             }    
+        //         }
+        //     ul li:nth-child(1){
+        //             width: 62rem / @base;
+        //             height: 58rem / @base;
+        //             border-right: 1rem / @base solid #505050;
+        //         }
+        //      ul li:nth-child(2){
+        //             width: 79rem / @base;
+        //             height: 58rem / @base;
+        //             border-right: 1rem / @base solid #505050;
+        //         }
+        //     ul li:nth-child(3){
+        //             width: 67rem / @base;
+        //             height: 58rem / @base;
+        //         } 
+        //     .del{
+        //         width: 97rem / @base;
+        //         text-align: center;
+        //         line-height: 172rem / @base;
+        //         background-color: #e43a3d;
+        //         color: #fff;
+        //         margin-left: 32rem / @base;
+        //         font-size: 22rem / @base;
+        //     }
+        // }
+
+    }
+    // 购物车结束
+    // 结算内容开始
+    .settle{
+    width: 750rem / @base;
+    height: 113rem / @base;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1rem / @base solid #e5e5e5;
+    margin-top: 368rem / @base;
+        .icon{
+            height: 49rem / @base;
+            line-height: 49rem / @base; 
+            padding-left: 24rem / @base;
+            padding-right: 14rem / @base;
+            input{
+                // -webkit-appearance: none;
+                // outline: none;
+                // position: relative;
+                // width: 34rem / @base;
+                // height: 32rem / @base;
+                // border-radius: 50%;
+                // border: 1rem / @base solid #b1271a; 
+                // background: #fff;  
+                // display: inline-block;
+                // vertical-align: middle;
+                //  background: url("../images/shoping_car_images/select.jpg") no-repeat;
+                i{
+                    position: absolute;
+                         left: 10rem / @base;
+                         top: 10rem / @base;
+                         width: 17rem / @base;
+                         height: 13rem / @base;
+                        
+                }
+            }
+            span{
+                vertical-align: middle;
+                font-size: 22rem / @base;
+                color: #666;
+                padding-left: 14rem / @base;
+            }
+        }  
+        .tit p:nth-child(1){
+                font-size: 28rem / @base;
+                color: #333;
+                padding-left: 34rem / @base;
+                margin-bottom: 16rem / @base;
+            }
+            b{
+                    color: #e3393c;
+                    font-size: 22rem / @base;
+                }
+        .tit p:nth-child(2){
+                        font-size: 18rem / @base;
+                        color: #bcbcbc;
+                    }
+        .tit2{
+            width: 246rem / @base;
+            background: #f26b11;
+            text-align: center;
+            line-height: 114rem / @base;
+            a{
+                color: #fff;
+                display: block;
+                font-size: 28rem / @base;
+            }
+        }
+                          
+    }
+    .footer{
+        margin: 0;
+    }
+}

@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+// 引入重置样式表
+@import "./normalize.css";
+
+@import "./reset.css";
+
+// 引入变量
+
+@baes : 100;
+// 头部样式开始
+header{
+    background: #fff;
+    height: 86rem / @baes; 
+    display: flex;
+    padding: 40rem / @baes 28rem / @baes 0;
+    justify-content: space-between;
+    align-items: center;
+    
+    i{
+        display: block;
+        width: 21rem / @baes;
+        height:42rem / @baes;
+        background: url("../images/list_images/arrow.jpg") no-repeat;
+        background-size: 100% auto;
+    }
+    img{
+        width: 146rem / @baes;
+        height: 32rem / @baes;
+    }
+    .set{
+        width: 55rem / @baes;
+        height: 12rem / @baes;  
+    }
+    .set span{
+        display: inline-block;
+        width: 12rem / @baes;
+        height: 11rem / @baes;
+        border-radius: 50%;
+        background: #000;
+
+    }
+}
+// 头部样式结束
+// 搜索框
+.search{
+    height: 126rem / @baes;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    input{
+        width: 624rem / @baes;
+        height: 77rem / @baes;
+        background: #f26b11;
+        line-height: 77rem / @baes;
+        margin-top: 24rem / @baes;
+        border-radius: 35rem / @baes;
+        text-align: center;
+        font-size: 26rem / @baes;
+    }
+    input::-webkit-input-placeholder{
+        color: #fff;
+    }
+    i{
+        position: absolute;
+        left: 260rem / @baes;
+        top: 50rem / @baes;
+        background: url("../images/list_images/search.jpg");
+        width: 26rem / @baes;
+        height: 27rem / @baes;
+        font-size: 26rem / @baes;
+        background-size: 100% auto;
+        color: #fff;
+    }
+}
+.content{
+    
+    height: 958rem / @baes; 
+    background: #fff;
+ .list-box{
+    width: 704rem / @baes; 
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+   line-height: 1.5;
+   border-bottom: 1rem / @baes solid #d1d1d1;
+   
+   div{
+       margin-top: 26rem / @baes;
+       margin-bottom: 20rem / @baes;
+   }
+    img{
+        width: 146rem / @baes;
+        height: 159rem / @baes;
+        border: 1rem / @baes solid #fffcf5;
+    }
+    div p:nth-child(1){
+        font-size: 24rem / @baes; 
+    }
+    div p:nth-child(2){
+        font-size: 24rem / @baes; 
+        color: #e2383b;
+    }
+    div p:nth-child(3){
+        font-size: 24rem / @baes; 
+        color: #999999;
+    }
+}
+}
+.footer{
+    margin: 0;
+}
+
+    

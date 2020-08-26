@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+// 引入重置样式表
+
+@import "../css/normalize.css";
+
+@import "../css/reset.css";
+
+// 引入变量
+
+@base : 100;
+
+// 外部盒子
+.wrap{
+    // 头像样式开始
+    .head{
+        height: 208rem / @base;
+        display: flex;
+        background: #f26b11;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 24rem / @base;
+        padding-right: 38rem / @base;
+        img{
+            width: 141rem / @base;
+            height: 144rem / @base;
+            border-radius: 50%;
+            border: 5rem / @base solid #fafbfd;
+            
+        }
+        .item{
+            width: 59rem / @base;
+            height: 152rem / @base;
+            display: inline-block;
+            text-align: center;
+            
+            margin-left: 24rem / @base;
+            p{
+                font-size: 28rem / @base;
+                color: #fff7ff;
+                margin-bottom: 23rem / @base;
+                margin-top: 40rem / @base;
+            }
+            span{
+                font-size: 20rem / @base;
+                color: #2e1904;
+            }
+        } 
+        .item2{
+            width: 159rem / @base;
+            height: 71rem / @base;
+            text-align: center;
+            line-height: 71rem / @base;
+            background: #fff;
+            p{
+                font-size: 24rem / @base;
+                color: #f06b28;
+            }
+        }
+              
+        
+    }
+    // 全部订单样式开始
+    .list{
+        background: #fff;
+        height: 142rem / @base;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20rem / @base;
+        .icon1{
+            width: 34rem / @base;
+            height: 34rem / @base;
+            display: inline-block;
+            background: url("../images/mine_images/icon_1.jpg") no-repeat;
+            background-size: 100% auto;
+            margin-bottom: 22rem / @base;
+        }
+        .icon2{
+            width: 38rem / @base;
+            height: 30rem / @base;
+            display: inline-block;
+            background: url("../images/mine_images/icon_2.jpg") no-repeat;
+            background-size: 100% auto;
+            margin-bottom: 22rem / @base;
+        }
+        .icon3{
+            width: 34rem / @base;
+            height: 29rem / @base;
+            display: inline-block;
+            background: url("../images/mine_images/icon_3.jpg") no-repeat;
+            background-size: 100% auto;
+            margin-bottom: 22rem / @base;
+        }
+        p{
+            font-size: 22rem / @base;
+            color: #676767;
+        }
+    }
+    // 主体内容开始
+    .content{
+        height: 716rem / @base;
+        background: #fff;
+        
+        text-align: center;
+        .list-box{
+            height: 110rem / @base;
+            padding: 0 38rem / @base;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1rem / @base solid #d9d9d9;
+            .icon{
+                display: inline-block;
+                width: 36rem / @base;
+                height: 40rem / @base;
+                background: url("../images/mine_images/icon_4.jpg") no-repeat;
+                background-size: 100% auto;vertical-align: middle;
+                margin-right: 26rem / @base;
+            }
+            .icon{
+                display: inline-block;
+                width: 36rem / @base;
+                height: 40rem / @base;
+                background: url("../images/mine_images/icon_4.jpg") no-repeat;
+                background-size: 100% auto;vertical-align: middle;
+                margin-right: 26rem / @base;
+            }
+            .icon2{
+                display: inline-block;
+                width: 36rem / @base;
+                height: 40rem / @base;
+                background: url("../images/mine_images/icon_4.jpg") no-repeat;
+                background-size: 100% auto;vertical-align: middle;
+                margin-right: 26rem / @base;
+            }
+            .icon3{
+                display: inline-block;
+                width: 36rem / @base;
+                height: 40rem / @base;
+                background: url("../images/mine_images/icon_4.jpg") no-repeat;
+                background-size: 100% auto;vertical-align: middle;
+                margin-right: 26rem / @base;
+            }
+            .icon4{
+                display: inline-block;
+                width: 36rem / @base;
+                height: 40rem / @base;
+                background: url("../images/mine_images/icon_4.jpg") no-repeat;
+                background-size: 100% auto;vertical-align: middle;
+                margin-right: 26rem / @base;
+            }
+            .icon5{
+                display: inline-block;
+                width: 36rem / @base;
+                height: 40rem / @base;
+                background: url("../images/mine_images/icon_4.jpg") no-repeat;
+                background-size: 100% auto;vertical-align: middle;
+                margin-right: 26rem / @base;
+            }
+            span{
+                vertical-align: middle;
+                color: #656565;
+                font-size: 26rem / @base;
+            }
+            i{
+                display: block;
+                width: 16rem / @base;
+                height: 24rem / @base;
+                background: url("../images/order/arrow.jpg");
+                background-size: 100% auto;
+            }
+            .col{
+                width: 125rem / @base;
+                display: flex;
+                justify-content: space-between;
+                p{
+                    color: #f06c1a;
+                    font-size: 18rem / @base;
+                    padding-left: 20rem / @base;
+                    line-height: 24rem / @base;
+                }
+            }
+        }
+    }
+    .footer{
+        margin: 0;
+    }
+}

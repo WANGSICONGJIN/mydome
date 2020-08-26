@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+// 引入重置样式表
+
+@import  "../css/normalize.css";
+
+@import "../css/reset.css";
+
+// 引入变量
+
+@base : 100;
+
+.wrap{
+    // 商品图片
+    .item{
+        img{
+            width: 750rem / @base;
+            height: 748rem / @base;
+        }
+    }
+    // 商品详情
+    .tit{
+        height: 205rem / @base;
+        background: #fff;
+        margin-bottom: 17rem / @base;
+        p{
+            height: 68rem / @base;
+            line-height: 50rem / @base;
+            padding: 32rem / @base 45rem / @base 0 36rem / @base;
+        }
+    }
+    .tit p:nth-child(1){
+        font-size: 30rem / @base;
+    }
+    .tit p:nth-child(2){
+        margin-top: 18rem / @base;
+        font-size: 24rem / @base;
+        color: #e6373c;
+        span{
+            font-size: 20rem / @base;
+            color: #878787;
+        }
+    }
+    .item2{
+        height: 98rem / @base;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1rem / @base solid #f1f1f1;
+        p{
+            padding-left: 24rem / @base;
+            font-size: 26rem / @base;
+            color: #454545;
+            span{
+                display: inline-block;
+                width: 64rem / @base;
+                height: 35rem / @base;
+                border: 1rem / @base solid #b12818;
+                text-align: center;
+                line-height: 35rem / @base;
+                color: #b12818;
+                font-size: 20rem / @base;
+            }
+            b{
+                font-size: 22rem / @base;
+            }
+        }
+        i{
+            display: block;
+            width: 35rem / @base;
+            height: 21rem / @base;
+            background: url("../images/detail_images/arrow.jpg") no-repeat;
+            padding-right: 21rem / @base;
+            background-size:50% auto;
+        }
+
+    }
+    .item3{
+        height: 108rem / @base;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1rem / @base solid #f1f1f1;
+        border-radius: 6rem / @base;
+        p{
+            padding-left: 25rem / @base;
+            font-size: 24rem / @base;
+            color: #454545;
+        }
+        ul{
+            width: 200rem / @base;
+            height: 57rem / @base;
+            border: 1rem / @base solid #454545;
+            display: flex;  
+            line-height: 57rem / @base;
+            text-align: center;
+            border-radius: 6rem / @base;
+            margin-right: 30rem / @base;
+            li{
+                a{
+                    font-size: 20rem / @base;
+                    color: #454545;
+                    display: block;
+                }
+            }
+            
+        }
+        ul li:nth-child(1){
+            width: 62rem / @base;
+            height: 57rem / @base;
+            border-right: 1rem / @base solid #454545;
+        }
+        ul li:nth-child(2){
+            width: 80rem / @base;
+            height: 57rem / @base;
+            border-right: 1rem / @base solid #454545;
+        }
+        ul li:nth-child(3){
+            width: 68rem / @base;
+            height: 57rem / @base;    
+        }
+    }
+    .item4{ 
+        background: #fff;
+        height: 190rem / @base;
+       .list{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40rem / @base;
+            p{
+            font-size: 24rem / @base;
+            color: #464646;
+            padding-left: 25rem / @base;
+            }
+            i{
+            display: block;
+            width: 35rem / @base;
+            height: 21rem / @base;
+            background: url("../images/detail_images/arrow.jpg") no-repeat;
+            background-size: 50% auto;
+            padding-right: 20rem / @base;
+            }
+        }
+       .list2{
+        display: flex;
+        padding-top: 45rem / @base;
+        padding-left: 20rem / @base;
+        text-align: center;
+        p{
+            font-size: 22rem / @base;
+            color: #b4b4b4;
+            line-height: 59rem / @base;
+            padding-right: 72rem / @base;
+        }
+        span{
+            display: block;
+            width: 150rem / @base;
+            height: 59rem / @base;
+            line-height: 59rem / @base;
+            background: #e3383e;
+            color: #feffff;   
+        }
+       } 
+       .list2 span:nth-of-type(2){
+        background: #e1e1e3;
+        margin-left: 16rem / @base;
+    }
+        
+    }
+    // 商品详情开始
+    .item5{
+        margin-top: 20rem / @base;
+        background: #fff;
+        .list{
+            height: 100rem / @base;
+            line-height: 100rem / @base;
+            P{
+                padding-left: 25rem / @base;
+                font-size: 30rem / @base;
+                color: #868686;
+            }
+        }
+    }
+    // 图片详情开始
+    .img-box img:nth-child(1){
+        height: 458rem / @base;
+    }
+    .img-box img:nth-child(2){
+        height: 648rem / @base;
+    }
+    .img-box img:nth-child(3){
+        height:592rem / @base;
+    }
+    .item6{
+        background: #fff;
+        .list{
+            width: 702rem / @base;
+            margin: 0 auto;
+            .tit{
+                height: 93rem / @base;
+                line-height: 93rem / @base;
+                border-bottom: 1rem / @base solid #eee;
+                p{
+                    font-size: 30rem / @base;
+                    color: #464646;
+                }
+            }
+            .tit2{
+                p{
+                    margin-top: 28rem / @base;
+                }
+                
+            }
+            .tit2 p:nth-child(1){
+                font-size: 20rem / @base;
+                color: #666666;
+            }
+            .tit2 p:nth-child(2){
+                font-size: 24rem / @base;
+                color: #454545;
+            }
+            .img-box{
+                margin-top: 33rem / @base;
+                border-bottom: 1rem / @base solid #eee;
+                img{
+                    width: 155rem / @base;
+                    height: 151rem / @base;
+                    padding-right: 32rem / @base;
+                }
+                p{
+                    margin-top: 37rem / @base;
+                    font-size: 18rem / @base;
+                    color: #e1e1e3;
+                    margin-bottom:29rem / @base ;
+                }
+            }
+        }
+        
+    }
+    .item7{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 91rem / @base;
+        background: #fff;
+    }
+    .item7 p:nth-child(1){
+        padding-left: 23rem / @base;
+        font-size: 24rem / @base;
+        color: #9a9a9a;
+    }
+    .item7 p:nth-child(2){
+        padding-right: 28rem / @base;
+        font-size: 22rem / @base;
+        color: #9a9a9a;
+        
+    }
+    .foot{
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1rem / @base solid #f1f1f1;
+        height: 113rem / @base;
+        .shop{
+            position: relative;
+            img{
+                width: 56rem / @base;
+                height: 53rem / @base;
+                padding-top: 29rem / @base;
+                padding-left: 56rem / @base;
+                text-align: center;
+            } 
+            span{
+                position: absolute;
+                top: 28rem / @base;
+                left: 90rem / @base;
+                width: 24rem / @base;
+                height: 24rem / @base;
+                line-height: 24rem / @base;
+                text-align: center;
+                border-radius: 50%;
+                background: #e63a3a;
+                color: #feffff;
+            }
+            p{
+                font-size:18rem / @base;
+                color: #878787;
+                padding-left: 56rem / @base;
+                padding-top: 12rem / @base;
+                text-align: center;
+            }
+        }
+    }
+    .foot .shop2{
+        display: flex;
+       text-align: center;
+       line-height:114rem / @base ;
+       font-size: 28rem / @base;
+        color: #fff;
+    }
+    .shop2 p:nth-child(1){
+         width: 289rem / @base;
+         height: 114rem / @base;
+         background: #f26b11;
+         border-right: 1rem / @base solid #f48456;
+         
+    }
+    .shop2 p:nth-child(2){
+        width: 288rem / @base;
+        height: 114rem / @base;
+         background: #e43a3d;
+    }
+}

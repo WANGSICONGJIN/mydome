@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+// 引入样式表
+
+@import "../css/normalize.css";
+
+@import "../css/reset.css";
+
+
+// 设置变量
+@base : 100;
+
+.wrap{
+    // 收货人开始
+    .receiver{
+        background: #fff;
+        height: 150rem / @base;
+        font-size: 22rem / @base;
+        color: #6e6e6e;
+        margin-bottom: 10rem / @base;
+        span{
+            margin: 26rem / @base 0;
+            padding-left: 28rem / @base;
+            
+        }
+        p{
+            float: left;
+        }
+        img{
+            width: 15rem / @base;
+            height: 34rem / @base;
+            float: right;
+            margin-right: 30rem / @base;
+        }
+        .item span:nth-child(1){
+            float: left;
+        }
+        .item span:nth-child(2){
+            float: right;
+            padding-right: 96rem / @base;
+        }
+        .item p:nth-of-type(1){
+            
+            padding-left: 28rem / @base;
+        }
+    }
+    // 购买清单开始
+    .Purchase{
+        height: 360rem / @base;
+        background: #fff;
+        img{
+            width: 101rem / @base;
+            height: 101rem / @base;
+            margin-top: 22rem / @base;
+            padding-left: 34rem / @base;
+        }
+        .clearfix p{
+            padding-left: 28rem / @base;
+            font-size: 22rem / @base;
+        }
+        p:nth-child(1){
+            margin-top:40rem / @base ;
+            margin-bottom: 24rem / @base;
+            color: #676767; 
+        }
+         p:nth-child(2){
+            color: #b3b3b3;  
+        }
+        .fr p{
+            font-size: 28rem / @base;
+            color: #e83940;
+            padding-right: 29rem / @base;
+            span{
+                font-size: 18rem / @base;
+            }
+        }
+        .list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 140rem / @base;
+
+            p{
+                font-size: 22rem / @base;
+                color: #656565;
+                padding-left: 28rem / @base;
+                font-size: 22rem / @base;
+            }
+            ul{
+                display: flex;
+                align-items: center;
+                text-align: center;
+                line-height: 63rem / @base;
+                font-size: 22rem / @base;
+            }
+            ul li:nth-child(1){
+                width: 73rem / @base;
+                height: 63rem / @base;
+                border: 1rem / @base solid #525252;
+                border-radius: 4rem / @base;
+                margin-right: 9rem / @base;
+            }
+            ul li:nth-child(2){
+                width: 116rem / @base;
+                height: 63rem / @base;
+                border: 1rem / @base solid #525252;
+                border-radius: 4rem / @base;
+               margin-right: 12rem / @base;
+            }
+            ul li:nth-child(3){
+                width: 73rem / @base;
+                height: 63rem / @base;
+                border: 1rem / @base solid #525252;
+                border-radius: 4rem / @base;
+                margin-right: 26rem / @base;
+            }
+        }
+        .list2{
+            width: 702rem / @base;
+            height: 96rem / @base;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1rem / @base solid #f0f0f0;
+            
+            p{
+                font-size: 22rem / @base;
+                color: #616161;
+            }
+        }
+
+    }
+   .preferentia{
+       height: 766rem / @base;
+       background: #fff;
+       margin-top: 10rem / @base;
+       .list3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 101rem / @base;
+        border-bottom: 2rem / @base solid#f1f1f1;
+        p{
+            font-size: 22rem / @base;
+            color: #656565;
+            margin: 40rem / @base 20rem / @base 0 25rem / @base;
+        }
+       }
+       .list4{
+           height: 102rem / @base;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           p{
+               padding-left: 26rem / @base;
+               font-size: 22rem / @base;
+               color: #6a6a6a;
+           }
+           .tet{
+            font-size: 22rem / @base;
+            input{
+                width: 151rem / @base;
+                height: 72rem / @base;
+                border: 1rem / @base solid #dddddd;
+                margin-right: 9rem / @base;
+                text-align: center;
+              
+            }
+            button{
+                width: 74rem / @base;
+                height: 74rem / @base;
+                background: #f26b11;
+                color: #e6ffff;
+            }  
+           }  
+           .p2{
+               display: inline-block;
+               font-size: 20rem / @base;
+               color: #a4a4a4;
+               margin-right: 26rem / @base;
+           }
+       }
+       .list5{
+           margin-top: 10rem / @base;
+           height: 260rem / @base;
+           background: #fff;
+           .item{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20rem / @base;
+            font-size: 22rem / @base;
+            color: #676767;
+            padding:0 38rem / @base 0 26rem / @base ;
+            .col{
+                color: #df3a48;
+                font-size: 18rem / @base;
+            }
+           }
+           .set{
+               padding-top: 35rem / @base;
+           }
+       }
+       .list6{
+           height: 258rem / @base;
+           background: #fff;
+           text-align: center;
+           .item{
+               width: 702rem / @base;
+               margin: 0 auto;
+               border-top: 1rem / @base solid #efefef;
+               p{
+                   float: right;
+                   padding-top: 52rem / @base;
+                   font-size: 34rem / @base;
+                   color: #6e6e6e;
+                   span{
+                       font-size: 28rem / @base;
+                       color: #e53947;
+                   }
+               }
+           }
+           button{
+               width: 355rem / @base;
+               height: 112rem / @base;
+               background: #f26b11;
+               color: #fffefd;
+               margin-top: 45rem / @base;
+               font-size: 28rem / @base;
+               
+           }
+       }
+      
+   }
+   .footer{
+    margin: 0;
+}
+}
